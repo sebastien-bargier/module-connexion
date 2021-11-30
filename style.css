@@ -1,0 +1,92 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+body{
+    background: #e2a623;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+}
+
+nav li {
+    list-style: none;
+    display: flex; 
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+nav li a:hover {
+    background-color: rgb(250,55,50);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding: 30px;
+    border: 1px solid grey;
+    background-color: white;
+    box-shadow: 0px 0px 15px grey;
+    margin: 100px auto;
+}
+
+.info {
+    display: block;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.github {
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+
+form label {
+    margin-top: 15px;
+}
+
+form input {
+    border : 1px solid grey;
+    background-color: white;
+}
+
+.btn {
+    background-color: rgb(250,55,50);
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5vw;
+    background-color : white;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.error {
+    color : rgb(250,55,50);
+}
