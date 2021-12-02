@@ -14,7 +14,7 @@ session_start();
 </head>
 <body>
     <header>
-        <nav id="titre">
+        <nav>
             <li><a href="index.php">Acceuil</a></li>
             <?php 
             
